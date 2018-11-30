@@ -1,0 +1,10 @@
+prefix=/root/Network/libnl/libnl-1.1.4/build_root
+exec_prefix=/root/Network/libnl/libnl-1.1.4/build_root
+libdir=${exec_prefix}/lib
+includedir=/root/Network/libnl/libnl-1.1.4/build_root/include
+
+Name: libnl
+Description: Convenience library for netlink sockets
+Version: 1.1.4
+Libs: -L${libdir} -lnl
+Cflags:
