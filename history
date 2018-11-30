@@ -1,0 +1,14 @@
+imx6q / arm-poky-linux-gnueabi-gcc
+rk3128 / arm-none-linux-gnueabi-gcc
+
+rk3128/testlib : qt base
+other : c base
+
+
+
+./configure --prefix /root/Network/libnl/libnl-1.1.4/build_root --build=arm-none-linux-gnueabi --host=arm-linux CC=arm-none-linux-gnueabi-gcc CXX=arm-none-linux-gnueabi-g++
+./configure --prefix /root/Network/libnl/libnl-3.2.25 --build=arm-none-linux-gnueabi --host=arm-linux CC=arm-none-linux-gnueabi-gcc CXX=arm-none-linux-gnueabi-g++
+
+make 
+
+make install
